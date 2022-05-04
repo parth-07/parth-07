@@ -5,10 +5,7 @@ wget -O "${HOME}/.tmux.conf" https://gist.githubusercontent.com/parth-07/37c028e
 wget -O "${HOME}/.vimrc" https://gist.githubusercontent.com/parth-07/184b3081fbe38eb81fdd1981f3603b6d/raw/d4bd9a83d85fb3ff8640f616fe4bd46007e09251/.vimrc
 
 export CHSH=yes
-sudo touch /workspace/.zsh_history
-sudo rm -f ~/.zsh_history
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-sudo ln -s /workspace/.zsh_history ~/
 
