@@ -13,3 +13,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sudo chsh -s $(which zsh) $(whoami)
 wget -O "${HOME}/.zshrc" https://gist.githubusercontent.com/parth-07/ae2560351187da19240a02d6c1463582/raw/ddcac747d313c86ea21357b33eecfb3755a760fc/.zshrc
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
