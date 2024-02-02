@@ -2,7 +2,7 @@
 
 Welcome to my profile!
 
-I'm **Parth Arora**. I am a final year undergrad student from India. I am always passionate about experimenting and learning new things and I like to overcome challenges that come with interesting projects.
+I'm **Parth Arora**. I am always passionate about experimenting and learning new things and I like to overcome challenges that come with interesting projects.
 
 I am looking to collaborate on:
 - Libraries, tools and frameworks, preferably more on mathematics side, that can be used in bigger projects.
